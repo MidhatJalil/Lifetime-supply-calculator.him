@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    background-color: rgb(121, 98, 98);
+}
+
+
+.container{
+    margin: 5rem 30rem;
+    padding: 2rem 2rem;
+    background-color: rgba(79, 83, 60, 0.466);
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 22px silver;
+    width: 20rem;
+    height: 32rem;
+}
+h1{
+    font-weight: 600;
+    color: whitesmoke;
+
+
+}
+h4{
+    margin-top: 1rem;
+}
+#result{
+    color: rgb(59, 42, 42);
+    background-color: rgb(207, 212, 212);
+    border: 1px solid black;
+    height: 6rem;
+    font-size: 15px;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding-left: .4rem;
+    padding-top: 1rem;
+
+
+}
+
+input{
+    height: 2rem;
+    margin: .2rem;
+margin-left: 2rem;
+padding-left: .4rem;
+
+}
+
+
+label{
+    color: wheat;
+}
+
+ button{
+    width: 9rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    box-shadow: 1px 1px 1px rgb(173, 154, 154);
+    background-color: rgb(49, 112, 89);
+}
+
+@media screen and (max-width:1024px) {
+    .container{
+        position: relative;
+        right: 10%;
+       
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container{
+      position: relative;
+      right: 10%;
+       
+    }
+}
+@media screen and (max-width:680px) {
+    .container{
+      position: relative;
+      right: 30%;
+      height: 30rem;
+      
+       
+    }
+    html{
+        font-size: 90%;
+    }
+
+
+}
+@media screen and (max-width:630px) {
+   html{
+    font-size: 90%;
+   }
+   .container{
+    position: relative;
+    right: 50%;
+    height: 32rem;
+    
+     
+  }
+}
+
+@media screen and (max-width:500px) {
+    html{
+     font-size: 90%;
+    }
+    .container{
+     position: relative;
+     right: 50%;
+     height: 32rem;
+     
+      
+   }
+   .operators button{
+
+    width: 1.7rem;
+    }
+    #clear{
+     margin-left: 0
+    }
+ }
+
+ @media screen and (max-width:430px) {
+
+    html{
+        font-size: 73%;
+       }
+    .container{
+     position: relative;
+     right: 40%;
+     height: 32rem;
+     text-align: center;
+     width: 19.5rem;
+     
+      
+   }
+   input{
+    margin: 0;
+   }
+   .operators button{
+
+    width: 1.7rem;
+    }
+    #clear{
+     margin-left: 0
+    }
+ }
+ 
+ @media screen and (max-width:320px) {
+    html{
+     font-size: 73%;
+    }
+    .container{
+     position: relative;
+     right: 60%;
+     height: 32rem;
+     text-align: center;
+     width: 19.5rem;
+     
+    
+   
+     
+      
+   }
+   input{
+    margin: 0;
+   }
+  
+   button{
+    margin-left: 0
+   }
+ }
